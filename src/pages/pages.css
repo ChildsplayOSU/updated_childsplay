@@ -38,3 +38,34 @@
 a{
     text-decoration: none;
 }
+
+/* Playing Page */
+
+.topImg{
+    margin-top: 30px;
+    text-align: center;
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.tictactoeImg{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 450px;
+    width: 600px; 
+}
+
+.section{
+    margin-top: 50px;
+}
+
+
+/* Programming Page */
+
+.boglImg{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 350px;
+    width: 700px; 
+}

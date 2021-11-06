@@ -1,11 +1,12 @@
 import React from 'react';
-import { Carousel, Container, Image } from 'react-bootstrap';
-import './homepage.css';
+import { Carousel, Container, Image, Row, Col } from 'react-bootstrap';
+import './pages.css';
 import img1 from './photos/img1.jpg';
 import img2 from './photos/img2.jpg';
 import img3 from './photos/img3.jpg';
 import img4 from './photos/img4.jpg';
 import logo from './photos/Childsplay.png'
+import SiteCard from '../components/SiteCard';
 
 
 
@@ -45,11 +46,10 @@ function Homepage(){
                 </Carousel.Item>
             </Carousel>
             <Container className='text-center'>
-                {/* Replace with padding */}
+                {/* Replace with margin */}
                 <br></br>
                 <br></br>
                 <br></br>
-                <Image src={logo} className='logoPix'/>
                 <br></br>
                 <h1 className='headerFonts' style={{fontSize: 46}}>Childsplay</h1>
                 <br></br>
@@ -73,8 +73,29 @@ function Homepage(){
                 of curriculum and tools for BoGL. Work for this project has been funded by an NSF grant obtained 
                 by the <a href='#'>School of Electrical Engineering and Computer Science</a> at <a href='#'>Oregon State University</a>.</p>
             </Container>
+            <Container>
+                <Row>
+                    <Col><SiteCard card='box' cname='c1' btn='b1'/></Col>
+                    <Col>
+                        <SiteCard card='box' cname='c2' btn='b2'></SiteCard>
+                    </Col>
+                    <Col>
+                        <SiteCard card='box' cname='c3' btn='b3'></SiteCard>
+                    </Col>
+                    <Col>
+                        <SiteCard card='box' cname='c4' btn='b4'></SiteCard>
+                    </Col>
+                    <Col>
+                        <SiteCard card='box' cname='c5' btn='b4'></SiteCard>
+                    </Col>
+                    <Col>
+                        <SiteCard card='box' cname='c6' btn='b4'></SiteCard>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     );
 }
 
 export default Homepage;
+
