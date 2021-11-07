@@ -14,8 +14,8 @@ function Homepage(){
 
     return(
         <div>
-            {/* controls='false' and variant='dark' aren't working - transitions broken */}
-            <Carousel variant="dark" className='carDims' fade='true' controls='false'>
+            {/* variant='dark' isn't working */}
+            <Carousel variant="dark" className='carDims' fade='true' controls={false}>
                 <Carousel.Item className='carItemDims'>
                     <img
                     className="d-block w-100"

@@ -39,7 +39,7 @@ a{
     text-decoration: none;
 }
 
-/* Playing Page */
+/* Other Pages */
 
 .topImg{
     margin-top: 30px;
@@ -49,17 +49,19 @@ a{
     height: 250px;
 }
 
+.section{
+    margin-top: 50px;
+}
+
+
+/* Playing Page */
+
 .tictactoeImg{
     margin-top: 30px;
     margin-bottom: 30px;
     height: 450px;
     width: 600px; 
 }
-
-.section{
-    margin-top: 50px;
-}
-
 
 /* Programming Page */
 
@@ -68,4 +70,11 @@ a{
     margin-bottom: 30px;
     height: 350px;
     width: 700px; 
+}
+
+/* Personnel */
+
+.headshots{
+    margin-bottom: 20px;
+    height: 200px
 }
