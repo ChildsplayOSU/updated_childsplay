@@ -8,9 +8,7 @@ You can use GitHub's built-in editor to change many elements of the page, includ
 within the paragraph tags. However, if you'd like to clone the repository and edit the site
 locally, follow the below instructions. As a note, I've also left in the default React 
 ReadMe information in case this is helpful.
-
-
-
+<br></br><br></br><br></br>
 
 
 
