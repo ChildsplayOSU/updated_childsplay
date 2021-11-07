@@ -1,3 +1,27 @@
+# Childsplay Site Documentation:
+
+## Introduction
+
+Hello! The Childsplay site has been writetn in React, a very common (at the time of writing this) framework for web applications.
+
+You can use GitHub's built-in editor to change many elements of the page, including the text
+within the paragraph tags. However, if you'd like to clone the repository and edit the site
+locally, follow the below instructions. As a note, I've also left in the default React 
+ReadMe information in case this is helpful.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
