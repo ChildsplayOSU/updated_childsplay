@@ -8,11 +8,13 @@ You can use GitHub's built-in editor to change many elements of the page, includ
 within the paragraph tags. However, if you'd like to clone the repository and edit the site
 locally, follow the below instructions. As a note, I've also left in the default React 
 ReadMe information in case this is helpful.
+<<<<<<< HEAD
 
 
 # Step 1 - Install Node.js
 
 To get started in development, you'll need to install Node.js. This is a super popular tool that has a lot of great tutorials and documentation on the web. To get started, <a href='https://nodejs.org/en/download/'>go here to download the current version</a> (note that if this link doesn't work, simply Google "install Node.js"). <br></br><br></br><br></br>
+
 
 
 # Step 2 - Clone the repository and install required packages
