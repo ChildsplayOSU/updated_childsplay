@@ -31,7 +31,7 @@ Now you can start a local copy of the site! To do this, run the `npm start` comm
 Once your site is up and running, you'll be able to make changes and edits in React. There are lots of resources on React if you need a hand figuring out development, but I'll make some project-specific notes here that might be useful:
 
 
-
+<br></br><br></br><br></br><br></br>
 
 
 # Getting Started with Create React App
