@@ -10,12 +10,19 @@ locally, follow the below instructions. As a note, I've also left in the default
 ReadMe information in case this is helpful.
 
 
+# Step 1 - Install Node.js
+
+To get started in development, you'll need to install Node.js. This is a super popular tool that has a lot of great tutorials and documentation on the web. To get started, <a href='https://nodejs.org/en/download/'>go here to download the current version</a> (note that if this link doesn't work, simply Google "install Node.js"). <br></br><br></br><br></br>
 
 
+# Step 2 - Clone the repository and install required packages
 
+After you've installed Node.js, you'll want to clone this repository. Once that's been done, you can open a terminal, and navigate to the location of your cloned repository on your desktop. Once there, you'll need to run the command ### `npm install` to install the libraries that were used in this project. A complete list can be found in package.json file.
+<br></br><br></br><br></br>
 
+# Step 3 - Start a local version of the site
 
-
+Now you can start a local copy of the site! To do this, run the ### `npm start` command in your terminal. This will start the site on localhost 3000, and should automatically open a browser tab to this address.
 
 
 
