@@ -7,6 +7,7 @@ import img3 from './photos/img3.jpg';
 import img4 from './photos/img4.jpg';
 import logo from './photos/Childsplay.png'
 import SiteCard from '../components/SiteCard';
+import { CardData } from './CardData'
 
 
 
@@ -75,22 +76,38 @@ function Homepage(){
             </Container>
             <Container>
                 <Row>
-                    <Col><SiteCard card='box' cname='c1' btn='b1'/></Col>
+                    {CardData.map((val) =>{
+                        return(
+                            <Col>
+                                <SiteCard
+                                    cname ={val.cname}
+                                    btn = {val.btn}
+                                    icon = {val.icon}
+                                    title = {val.title}
+                                    link = {val.link}
+                                    description = {val.description}    
+                                />
+                            </Col>
+                            
+                        )
+                    }
+                    )}
+                    {/* <Col><SiteCard cname='c1' btn='b1'/></Col>
                     <Col>
-                        <SiteCard card='box' cname='c2' btn='b2'></SiteCard>
+                        <SiteCard  cname='c2' btn='b2'></SiteCard>
                     </Col>
                     <Col>
-                        <SiteCard card='box' cname='c3' btn='b3'></SiteCard>
+                        <SiteCard  cname='c3' btn='b3'></SiteCard>
                     </Col>
                     <Col>
-                        <SiteCard card='box' cname='c4' btn='b4'></SiteCard>
+                        <SiteCard  cname='c4' btn='b4'></SiteCard>
                     </Col>
                     <Col>
-                        <SiteCard card='box' cname='c5' btn='b4'></SiteCard>
+                        <SiteCard  cname='c5' btn='b4'></SiteCard>
                     </Col>
                     <Col>
-                        <SiteCard card='box' cname='c6' btn='b4'></SiteCard>
-                    </Col>
+                        <SiteCard  cname='c6' btn='b4'></SiteCard>
+                    </Col> */}
                 </Row>
             </Container>
         </div>
