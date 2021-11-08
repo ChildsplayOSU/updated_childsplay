@@ -2,12 +2,11 @@
 
 ## Introduction
 
-Hello! The Childsplay site has been writetn in React, a very common (at the time of writing this) framework for web applications.
-
-You can use GitHub's built-in editor to change many elements of the page, including the text
-within the paragraph tags. However, if you'd like to clone the repository and edit the site
-locally, follow the below instructions. As a note, I've also left in the default React 
-ReadMe information in case this is helpful.
+Hello! The Childsplay site has been writetn in React, a very common (at the time of writing this) JS library for web applications.
+<br></br>
+If all you need to do is change the text in the website, this can be done directly though GitHub's built-in editor to modify many elements of the page, including the text
+within the paragraph tags.<br></br>
+However, if you'd like to make more comprehensive changes, such as adding a page, changing the layout, etc..., please clone the repository and edit the site locally. To do this, follow the instructions below. As a note, I've also left in the default React ReadMe information in case this is helpful.
 
 
 ## Step 1 - Install Node.js
