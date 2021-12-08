@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Navbar, NavDropdown, Nav, Image } from 'react-bootstrap';
-import logo from "../pages/photos/Childsplay.png"
+import logo from "../pages/photos/childsplay_logo.png"
 import './components.css';
 
 function TopBar(){
@@ -9,8 +9,8 @@ function TopBar(){
 
   <Navbar sticky='top' expand="lg" className='navProps' >
     <Container>
-    {/* <Image src={logo} className='logoPix'/> */}
-      <Navbar.Brand href="/">Childsplay</Navbar.Brand>
+      <Image src={logo} className='logo'/>
+      {/*<Navbar.Brand href="/">Childsplay</Navbar.Brand>*/}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse  className="justify-content-end" id="basic-navbar-nav">
         <Nav activeKey="/home">
