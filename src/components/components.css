@@ -4,6 +4,13 @@
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid grey;
+    font-size: 1.2em;
+    /* font-family: 'Chewy'; */
+}
+
+.logo{
+    width: 120px;
+    padding: 3px; 
 }
 
 /* Footer CSS */
