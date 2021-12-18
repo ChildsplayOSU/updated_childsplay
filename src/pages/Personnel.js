@@ -10,6 +10,7 @@ import photo6 from './photos/alex.jpg'
 import photo7 from './photos/erick.jpg'
 import photo8 from './photos/javier.jpg'
 import photo9 from './photos/ben.jpg'
+import photo10 from './photos/matthew_headshot.jpg'
 
 function Personnel(){
     return(
@@ -91,6 +92,14 @@ function Personnel(){
                     to help instruct students in introductory CS courses. During his time at OSU, he was part of the team that designed and implemented BoGL, and continues to work on it today. Ben was responsible for building this website, and the tools behind it, along with Erick.
                 </p>
                 <a href='https://www.uphouseworks.com/'>More about Ben</a>
+            </Container>
+            <Container className='section'>
+                <Image src={photo10} roundedCircle className='headshots' />
+                <h2 className='headerFonts'>Matthew Hawkins</h2>
+                <p>Matthew is a fourth year computer science student at Oregon State, with a focus in web and mobile development. He has worked as an undergraduate learning assistant, which is where he further developed his passion for computer science education.
+                    He has helped the BoGL team develop curriculum, and also re-worked the current version of the website you're viewing right now!
+                </p>
+                <a href='https://www.linkedin.com/in/matthew-hawkins-4272001a1/'>More about Matthew</a>
             </Container>
             
         </div>
