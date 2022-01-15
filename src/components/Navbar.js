@@ -21,13 +21,13 @@ function TopBar(){
           <Nav.Link as={Link} to="/programming">Programming</Nav.Link>
           <Nav.Link as={Link} to="/publications">Publications</Nav.Link>
           <Nav.Link as={Link} to="/personnel">Personnel</Nav.Link>
-          <NavDropdown title="Curriculum" id="basic-nav-dropdown">
+          {/* <NavDropdown title="Curriculum" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Level 1</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Level 2</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">Other Resources</NavDropdown.Item>
-          </NavDropdown>
-          <Nav.Link href="/~hawkinma/build/contact">Contact</Nav.Link>
+          </NavDropdown> */}
+          <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
           
         </Nav>
       </Navbar.Collapse>
