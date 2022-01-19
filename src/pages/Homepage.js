@@ -60,12 +60,12 @@ function Homepage(){
                 <br></br>
                 <h2 className='headerFonts'>The approach</h2>
                 <br></br>
-                <p className='bodyFonts'>Our approach teaches computer science concepts to young students through playing 
+                <p className='bodyFonts'>Our approach teaches computer science concepts to young students through the playing 
                     and analysis of board games. There are two curriculums that work together to do this. 
                     The first focuses on gaining problem-solving skills and understanding Representations, 
                     Algorithms, and Computation in a no-code environment. The second aims for building a deeper 
                     understanding about concepts mentioned previously – the concepts are applied to programming using a 
-                    functional programming languages created specifically for this purpose, called BoGL. 
+                    functional programming language created specifically for this purpose, called BoGL. 
                     Our second level curriculum takes the concepts from the first level, and integrates key problem-solving
                     concepts into the lessons.</p>
                 <br></br>
