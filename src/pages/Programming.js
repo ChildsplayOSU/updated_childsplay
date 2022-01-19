@@ -27,7 +27,7 @@ function Programming(){
                 <p>You can get started right now by reading the first tutorial. From there, you can work along in our online tool to write and run programs. You can even write programs in the tutorials using our miniature editor, which is provided below. These mini-editors show up throughout our tutorials, allowing you to quickly check your understanding with little exercises. You can try out the one below by typing in getMsg into the prompt on the right.</p>
                 {/* Add the BoGL terminal here if possible */}
                 {/* Also, hyperlinks below */}
-                <p>If you are curious about using BoGL, and how it relates to our curriculum. Please reach out to us on the Educator Material page. We’re happy to answer any questions you may have.</p>
+                <p>If you are curious about using BoGL, and how it relates to our curriculum. Please reach out to us on using the "Contact Us" link below. We’re happy to answer any questions you may have.</p>
 
             </Container>
         </div>

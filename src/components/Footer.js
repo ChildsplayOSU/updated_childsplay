@@ -8,7 +8,7 @@ function Footer(){
         <div>
             <div className='footerContainer'>
                 <img src={logo} className='footerLogo'></img>
-                <Row><a href='#contact'>Questions? Contact Us</a></Row>
+                <Row><a href="/#/contact">Questions? Contact Us</a></Row>
                 <Row><p className='footerText'>© Childsplay Research Group 2021  |  Designed & Built at the School of EECS at Oregon State University</p>
                     <br></br>
                     <p>• • •</p>

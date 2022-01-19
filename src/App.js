@@ -15,12 +15,12 @@ function App() {
     <div>
       <TopBar />
         <Routes>
-          <Route path='/~hawkinma/build/' element={<Homepage />} />
-          <Route path='/~hawkinma/build/playing' element={<Playing />} />
-          <Route path='/~hawkinma/build/programming' element={<Programming />} />
-          <Route path='/~hawkinma/build/publications' element={<Publications />} />
-          <Route path='/~hawkinma/build/personnel' element={<Personnel />} />
-          <Route path='/~hawkinma/build/contact' element={<Contact />} />
+            <Route path="/" element={<Homepage />} />
+            <Route path='/playing' element={<Playing />} />
+            <Route path='/programming' element={<Programming />} />
+            <Route path='/publications' element={<Publications />} />
+            <Route path='/personnel' element={<Personnel />} />
+            <Route path='/contact' element={<Contact />} />
         </Routes>
       <Footer />
     </div>
