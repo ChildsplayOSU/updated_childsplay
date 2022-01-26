@@ -29,6 +29,13 @@ Now you can start a local copy of the site! To do this, run the `npm start` comm
 
 Once your site is up and running, you'll be able to make changes and edits in React. There are lots of resources on React if you need a hand figuring out development, but I'll make some project-specific notes here that might be useful:
 
+## Step 5 - Update the files on the Engineering Servers
+
+I've made a quick video tutorial walking through how to do this step! The link can be found here:
+
+https://youtu.be/MI7kY6Vb5QY
+
+As mentioned, if file permissions need to be changed, you'll want to change them to 775. If a blank page renders, open your dev tools in the browser and see which files aren't able to be loaded. They are likely still not given the correct permissions, so navigate to these files in your SSH tool and change their permissions.
 
 <br></br><br></br><br></br><br></br>
 
