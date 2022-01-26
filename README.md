@@ -27,7 +27,7 @@ Now you can start a local copy of the site! To do this, run the `npm start` comm
 
 ## Step 4 - Make edits locally in React
 
-Once your site is up and running, you'll be able to make changes and edits in React. There are lots of resources on React if you need a hand figuring out development, but I'll make some project-specific notes here that might be useful:
+Once your site is up and running, you'll be able to make changes and edits in React. There are lots of resources on React if you need a hand figuring out development, but I'll make some project-specific notes here that might be useful:<br></br><br></br>
 
 ## Step 5 - Update the files on the Engineering Servers
 
