@@ -5,6 +5,7 @@ import Homepage from './pages/Homepage';
 import Playing from './pages/Playing';
 import Programming from './pages/Programming';
 import Publications from './pages/Publications';
+import PlayingPreview from './pages/PlayingPreview';
 import Contact from './pages/Contact';
 import Personnel from './pages/Personnel';
 import Footer from './components/Footer';
@@ -21,6 +22,7 @@ function App() {
             <Route path='/publications' element={<Publications />} />
             <Route path='/personnel' element={<Personnel />} />
             <Route path='/contact' element={<Contact />} />
+            <Route path='/playing/preview' element={<PlayingPreview />}></Route>
         </Routes>
       <Footer />
     </div>

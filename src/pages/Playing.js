@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import photo1 from './photos/playing1.jpg';
 import photo2 from './photos/playing2.jpg';
 
@@ -24,7 +25,7 @@ function Playing(){
             </Container>
             <Container>
                 <h2 className='headerFonts'>Unit 1 Preview</h2>
-                <p>The unit 1 preview is still being worked on at the moment…</p>
+                <p><Link to='/playing/preview'>Click here</Link> to see an example piece of our CS unplugged curriculum</p>
                 <h2 className='headerFonts'>Interested?</h2>
                 <p>You can contact us to find out how you can use our curriculum in your classroom.</p>
             </Container>

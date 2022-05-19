@@ -12,7 +12,9 @@ function Programming(){
             <Container className='section'>
                 <h1 className='headerFonts' style={{fontSize: 46}}> Programming </h1>
                 {/* Need to go through and add the hyperlinks in the below text section */}
-                <p>In this curriculum, we use BoGL, a domain-specific teaching language developed by Professor Martin Erwig and Oregon State University students. It is designed to be easy to use, and easy to teach. BoGL is completely accessible in an online web tool, removing the need to install anything to get started. Support and materials for the language are available online in the form of tutorials and documentation. For instructors that are interested in using BoGL as part of their curriculum, see the Educator Material page for more info.</p>
+                <p>In this curriculum, we use BoGL, a domain-specific teaching language developed by Professor Martin Erwig and Oregon State University students. It is designed to be easy to use, and easy to teach. BoGL is completely accessible in an online web tool, removing the need to install anything to get started. Support and materials for the language are available online in the form of tutorials and documentation. For instructors that are interested in using BoGL as part of their curriculum, see the Educator Material page for more info.
+                    <br></br><br></br> If you'd like to start working in BoGL, <b>please <a href="https://bogl.engr.oregonstate.edu/tutorials/GettingStarted.html" target="_blank">click here</a> to be taken to our tutorial site.</b> If you'd like to use BoGL without any tutorials, you can find our <b>online interpreter <a href="https://bogl.engr.oregonstate.edu/" target="_blank">at this link.</a></b>
+                </p>
             </Container>
             <Container style={{textAlign: "center"}}>
                 <img src={photo2} className='boglImg'></img>
@@ -27,7 +29,7 @@ function Programming(){
                 <p>You can get started right now by reading the first tutorial. From there, you can work along in our online tool to write and run programs. You can even write programs in the tutorials using our miniature editor, which is provided below. These mini-editors show up throughout our tutorials, allowing you to quickly check your understanding with little exercises. You can try out the one below by typing in getMsg into the prompt on the right.</p>
                 {/* Add the BoGL terminal here if possible */}
                 {/* Also, hyperlinks below */}
-                <p>If you are curious about using BoGL, and how it relates to our curriculum. Please reach out to us on using the "Contact Us" link below. We’re happy to answer any questions you may have.</p>
+                <p>If you are curious about using BoGL in your classroom or how it relates to our curriculum, please reach out to us on using the "Contact Us" link below. We’re happy to answer any questions you may have.</p>
 
             </Container>
         </div>
