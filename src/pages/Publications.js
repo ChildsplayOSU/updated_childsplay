@@ -24,6 +24,16 @@ function Publications(){
                 <br></br>
                 <h2 className='headerFonts' style={{fontSize: 30}} > Developing teachers’ knowledge for teaching in virtual contexts: Lessons from the pandemic of 2020-2021.</h2>
                 <p> Niess, M.L. & Gillow-Wiles, H. (June, 2021). In Niess & Gillow-Wiles (Eds.) Handbook of Research on Transforming Teachers’ Online Pedagogical Reasoning for Teaching K-12 Students in Virtual Learning Environments.  Hershey, PA: IGI Global. </p>
+                <br></br>
+                <h2 className='headerFonts' style={{fontSize: 30}} > Adaptable Traces for Program Explanations. </h2>
+                <p> Divya Bajaj, Martin Erwig, Danila Fedorin, and Kai Gay Asian Symp. on Programming Languages and Systems, LNCS 13008, 2021, pp. 202-221. </p>
+                <br></br>
+                <h2 className='headerFonts' style={{fontSize: 30}} > A Visual Notation for Succinct Program Traces.</h2>
+                <p> Divya Bajaj, Martin Erwig, Danila Fedorin, and Kai Gay IEEE Int. Symp. on Visual Languages and Human-Centric Computing, 2021, pp. 1-9. </p>
+                <br></br>
+                <h2 className='headerFonts' style={{fontSize: 30}} > Exploring the Use of Games and a Domain-Specific Teaching Language in CS0. </h2>
+                <p> Parham-Mocello, J., Nelson, A., and Erwig, M. 2022. In Proceedings of the 27th ACM Conference on Innovation and Technology in Computer Science Education Vol 1 (ITiCSE 2022), July 8–13, 2022, Dublin, Ireland. ACM, New York, NY, USA, 7 pages. </p>
+                <br></br>
             </Container>
         </div>
     );
